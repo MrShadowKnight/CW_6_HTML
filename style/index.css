@@ -1,0 +1,15 @@
+h1 {
+  transition: 0.5s;
+  font-size: 100px;
+  cursor: pointer;
+  display: inline-block;
+  margin: 0 20px;
+}
+h1:hover {
+  color: red;
+  /* transform: scale(0.9); */
+  /* transform: translateX(-10px); */
+  transform: rotate(10deg);
+  transition: 0.5s;
+  font-size: 100px;
+}
