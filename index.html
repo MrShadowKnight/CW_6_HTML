@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/style/reset_style.css" />
+    <link rel="stylesheet" href="/style/index.css" />
+  </head>
+  <body>
+    <form action="">
+      <legend>Title form</legend>
+      <!-- TEXT -->
+      <label for="some">Some text</label>
+      <input
+        style="display: block"
+        id="some"
+        type="text"
+        name="text"
+        placeholder="Enter some text"
+      />
+      <!-- PHONE -->
+      <label for="number">Phone</label>
+      <input
+        style="display: block"
+        id="number"
+        type="number"
+        name="number"
+        placeholder="Enter some number"
+      />
+      <!-- EMAIL -->
+      <label for="mail">Email</label>
+      <input
+        style="display: block"
+        id="mail"
+        type="email"
+        name="email"
+        placeholder="Enter some email"
+      />
+      <!-- COLOR -->
+      <label for="color">Choose color</label>
+      <input style="display: block" id="color" type="color" name="color" />
+      <!-- DATE -->
+      <label for="date">Choose date</label>
+      <input style="display: block" id="date" type="date" name="date" />
+      <!-- TIME -->
+      <label for="time">Choose time</label>
+      <input style="display: block" id="time" type="time" name="time" />
+      <!-- RADIO -->
+      <label for="radio1">Radio1</label>
+      <input style="display: block" id="radio1" type="radio" name="text" />
+      <label for="radio2">Radio2</label>
+      <input style="display: block" id="radio2" type="radio" name="text" />
+      <!-- CHECKBOX -->
+      <label for="checkbox1">Chackbox1</label>
+      <input
+        style="display: block"
+        id="checkbox1"
+        type="checkbox"
+        name="text"
+        checked
+      />
+      <label for="checkbox2">Chackbox2</label>
+      <input
+        style="display: block"
+        id="checkbox2"
+        type="checkbox"
+        name="text"
+      />
+      <!-- REGION -->
+      <label for="reg">Region</label>
+      <section style="display: block" id="reg" name="region">
+        <option value="one">Lviv</option>
+        <option value="two">Kyiv</option>
+        <option value="three">Kharkiv</option>
+      </section>
+      <!-- PASSWORD -->
+      <label for="pass">Password</label>
+      <input style="display: block" id="pass" type="password" name="pass" />
+
+      <textarea name="" id="" cols="30" rows="10"></textarea>
+      <!-- SUBMIT -->
+      <input type="submit" value="Send form" />
+      <section class="hero">
+        <h1>Виникли запитання?</h1>
+        <form action="hero__form">
+          <input type="text" placeholder="Ваше ім’я" required />
+          <input type="number" placeholder="Номер телефону" required />
+        </form>
+      </section>
+    </form>
+  </body>
+</html>
